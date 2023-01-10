@@ -1,0 +1,197 @@
+    .scheduleMeeting{
+    width: 390px;
+    margin:10px;
+    height: 86vh;
+    border-radius: 12px 12px 12px 12px;
+    background-color: rgb(255, 255, 255);
+}
+.scheduleMeeting .SchduMeeting{
+    display: flex;
+    margin: 20px 15px 15px 15px;
+}
+.scheduleMeeting .SchduMeeting h4{
+    font-size: 14px;
+}
+.scheduleMeeting .SchduMeeting svg{
+    margin-left: auto;
+    font-weight: 800;
+    background-color: #F3F3F3;
+    padding: 5px;
+    font-size: 25px;
+    border-radius: 50%;
+    margin-top: -5px;
+}
+.hr-lineee{
+    border: none;
+    border-top: 1px solid #eee;
+    
+}.when,
+.timeee,
+.topic{
+    display: flex;
+    margin: 11px 20px 0px 20px;
+}
+.when h6,
+.timeee h6,
+.topic h6{
+    font-size: 12px;
+    font-weight: 600;
+}
+.topic p{
+    font-size: 9px;
+    margin-left: auto;
+    color: #F24822;
+    margin-top: 4px;
+}
+.formms{
+    margin-right: 40px;
+    position: relative;
+}
+.formms form input{
+    padding-left: 10px;
+    width: 100%;
+    height: 40px;
+    border-radius: 12px;
+    color: #25252544 !important;
+    font-size: 11px;
+}
+.formms form input[type=date]{
+    background-color: #f3f3f3;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    font-size: 11px;
+    border-radius: 12px;
+    color: #25252591 !important;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url() no-repeat;
+    z-index: 2;
+    font-size: 14px;
+ 
+}
+.formms img{
+    position: absolute;
+   left: 95%;
+   top: 44%;
+   z-index: 1;
+   height: 16px;
+}
+.timeForms p{
+    font-size: 14px;
+    padding: 20px 0px 0px 4px;
+}
+.timeForms{
+    display: flex;
+    position: relative;
+}
+
+.timeForms .toForm input
+{
+    margin-left: 6px !important;
+}
+.timeForms .toForm input,
+.timeForms .fromForm input{
+    width: 70px !important;
+    padding-left: 10px;
+    background-color: #f3f3f3;
+    height: 40px;
+    border-radius: 12px;
+    font-size: 11px;
+}
+.SelectOption{
+    border: none;
+    background-color: #f3f3f3;
+    height: 40px;
+    margin-top: 7px;
+    padding-left: 10px;
+    width: 70px !important;
+    margin-left: 6px;
+    border-radius:12px ;
+    font-size: 11px;
+    color: #25252591 !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+select option{
+    background-color: #f5f5f5 !important;
+    font-size: 14px;
+    border: none;
+}
+.timeForms svg{
+    position: absolute;
+    left: 86%;
+    top: 45%;
+    font-size: 10px;
+}
+.timezone{
+    background-color: #f3f3f3;
+    width: 87%;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    font-size: 11px;
+    border-radius: 12px;
+    color: #25252591 !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.timeZoneSelect{
+    position: relative;
+}
+.timeZoneSelect svg{
+    position: absolute;
+    left: 86%;
+    top: 45%;
+    font-size: 10px;
+}
+.radioButtons {
+    position: relative;
+}
+.radioButtons input[type="radio"]{
+    /* background-color: #F24822; */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* create custom radiobutton appearance */
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    padding: 2px;
+    margin-left: 16px;
+    /* background-color only for content */
+    background-clip: content-box;
+    border: 2px solid #bbbbbb;
+    background-color: #e7e6e7;
+    border-radius: 50%;
+    margin-top: 10px;
+    
+}
+input[type="radio"]:checked {
+    background-color: #F24822;
+  }
+  .radioButtons label{
+    font-size: 12px;
+    color: #25252591 !important;
+    position: absolute;
+    margin-top: 12px;
+  }
+  .scheduleMeeting button{
+    height: 30px;
+    width: 86%;
+    margin-left: 20px;
+    background-color: #F24822;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 9px;
+    margin-top: 85px;
+  }

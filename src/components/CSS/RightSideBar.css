@@ -1,0 +1,40 @@
+.rightBar{
+    height: 100vh;
+    margin-left: auto;
+    padding: 6px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.rightBar .img-fluidv{
+    padding: 0px 10px 10px 10px;
+    margin-top: 20px;
+    width: 50px;
+}
+.plus{
+    padding: 14px 10px 14px 18px;
+    background-color: #f5f5f5;
+}
+.rightBar .img-fluidm{
+    padding: 0px 10px 10px 10px;
+    margin-top: 15px;
+    width: 50px;
+}
+.rightBar .img-fluido{
+    padding: 0px 10px 10px 10px;
+    margin-top: 15px;
+    width: 50px;
+}
+.rightBar .img-fluidr{
+    padding: 0px 10px 10px 10px;
+    margin-top: 15px;
+    width: 50px;
+}
+.rightBar .img-fluidp{
+    padding: 0px 10px 10px 10px;
+    margin-top: 15px;
+    width: 50px;
+}

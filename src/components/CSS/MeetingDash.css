@@ -1,0 +1,99 @@
+*{
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-family: 'Gilroy-Regular', sans-serif;
+
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 5px 1px 23px #aaaaaa;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+  }
+  li{
+    display: inline-block;
+
+  }
+
+   a {
+    
+    flex-wrap:wrap;
+    color: white;
+    padding: 18px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+.backArrow svg{
+  font-size: 20px;
+  margin-top: 33px;
+  margin-left: 20px;
+  
+}
+.project{
+    font-size: 22px;
+    font-weight: 600;
+  padding: 30px;
+}
+.timee{
+    align-items: center;
+    margin: auto auto;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+  .right-listt{
+      margin-left: auto;
+      margin-top: 2px;
+      display: flex;
+      margin-right: 30px;
+  }
+  .right-listt svg{
+    margin-top: 30px;
+    margin-left: 10px;
+    color: #F24822;
+    font-weight: 700;
+  }
+.HostImg{
+    height: 52px;
+    margin-top: 15px;
+}
+.hostName{
+    margin-top: 3px;
+    margin-left: 10px;
+}
+.name{
+    font-size: 16px;
+    margin-top: 19px;
+}
+.host{
+    font-size: 14px;
+    color: #F24822;
+    margin-top: 2px;
+}

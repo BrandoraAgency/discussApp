@@ -1,0 +1,68 @@
+.tile{
+    padding: 20px 0px;
+    display: flex;
+    background-color: #fff;
+    margin-left: 20px;
+    margin-top: 15px;
+    height: auto;
+    width: auto;
+    border-radius: 16px;
+    position: relative;
+    
+}
+ .time{
+    display: flex;
+    margin-left: 20px;
+    
+}
+.time p{
+    background-color: #f4f4f4;
+    height: 35px;
+    padding:10px;
+    font-size: 10px;
+    border-radius: 8px;
+}
+.time span{
+    font-size: 20px;
+    margin-top: 4px;
+}
+.discussion{
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.discussion h4{
+    font-size: 13px;
+    font-weight: 700;
+}
+.meetingId{
+    font-size: 10px;
+    margin-top: 4px;
+   
+}
+.spanID{
+    color: #F24822;
+   
+}
+.actions{
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+    
+}
+.actions .delete,
+.actions .edit{
+    font-size: 17px;
+    padding: 10px 12px  7px 12px;
+    border-radius: 10px;
+}
+.actions .delete{
+    background-color:#f248221e;
+    color: #F24822;
+}
+.actions .edit{
+    background-color:#fbfbfb;
+    margin-right: 10px;
+}

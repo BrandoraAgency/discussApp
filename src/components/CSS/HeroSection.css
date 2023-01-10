@@ -1,0 +1,68 @@
+.firstBar{
+    width: fit-content;
+    background-color: #fff;
+    height: 100vh;
+    padding: 1px 20px;
+    
+    border-right: 1px solid #f5f5f5f5;
+}
+.img-fluidda,
+.img-fluiddb,
+.img-fluiddc{
+    margin-left: 8px;
+    margin-top: 7px;  
+}
+.img-fluidd{
+    width: 22px;
+    margin-top: 10px;
+    margin-left: 6px;
+}
+.meeting-circle{
+    height: 35px;
+    width: 35px;
+    background-color: #FEF2F0;
+    border-radius: 30px; 
+    margin-top: 20px;
+}
+.meeting-circle:active{
+    border: 1px solid #F24822;
+    height: 33px;
+    width: 33px;
+}
+.camera-circle{
+    height: 35px;
+    width: 35px;
+    background-color: #E6F3FA;
+    border-radius: 30px; 
+    margin-top: 20px;
+}
+.camera-circle:active{
+    border: 1px solid #0582CA;
+    height: 33px;
+    width: 33px;
+}
+.people-circle{
+    height: 35px;
+    width: 35px;
+    background-color: #EAF7F1;
+    border-radius: 30px; 
+    margin-top: 20px;
+}
+.people-circle:active{
+    border: 1px solid #2BAC76;
+    height: 33px;
+    width: 33px;
+}
+.setting-circle{
+    height: 35px;
+    width: 35px;
+    background-color: #FBFBFB;
+    border-radius: 30px; 
+    margin-top: 20px;
+}
+.setting-circle:active{
+    border: 1px solid #D1D2D3;
+   height: 33px;
+    width: 33px;
+}
+

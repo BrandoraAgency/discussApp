@@ -1,0 +1,63 @@
+.sidebar{
+    background-color: #fff;
+    width: auto;
+    padding-right: 20px;
+    height: 100vh;
+}
+.meetings h2{
+    font-size: 17px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.meetings{
+    display: flex;
+}
+.meetings svg{
+    margin-left: auto;
+    margin-top: 18px;
+    color: #F24822;
+    border: 1px solid #00000011;
+    border-radius: 8px;
+    padding: 3px;
+    font-size: 22px;
+}
+input[type=text] {
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    background-color: #F5F5F5;
+    height: 32px;
+    width: 200px;
+    padding:10px 10px 10px 23px;
+    margin-left: 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #A8A8A8;
+  }
+  .searchBar {
+      position: relative;
+      margin-bottom: 10px;
+      margin-top: 20px;
+  }
+  .searchBar svg{
+      position: absolute;
+      top: 40%;
+      left: 11%;
+      color: #A8A8A8;
+  }
+  .upComing{
+      height: 64px;
+      border-bottom: 1px solid #f5f5f5f5;
+  }
+  .upComing h4{
+      padding-top: 24px;
+      padding-left: 23px;
+      font-weight: 500;
+      font-size: 14px;
+      cursor: pointer;
+  }
+  .upComing:active{
+    background-color: #f5f5f5;
+    border-left: 4px solid #F24822;
+    
+  }
